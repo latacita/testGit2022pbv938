@@ -1,11 +1,12 @@
 %%==================================================================%%
 %%                 Métodos de Desarrollo - Test de Git              %%
 %%==================================================================%%
-%% Alumno (Apellidos, Nombre):                                      %%
+%% Alumno (Apellidos, Nombre): Berrío Valdor, Pedro                 %%
 %%==================================================================%%
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+<<<<<<< HEAD
 (22)	git add .
 (23)	git commit -m "Paso 23"
 (24)	git checkout master
@@ -14,4 +15,25 @@
 (26)	git add + commit
 (27)	git tag 
 (28)	git pull + push origin master
+(30)	git add + commit
+(31)	git merge Historia001 --no-ff  	Si no se añade el --no-ff da conflictos
 					
+=======
+<<<<<<< HEAD
+(7)	git add .
+(8)	git commit -m "Paso08"
+(9)	git checkout Historia001
+(13)	git add .
+(14)	git commit -m "paso 14"
+(15)	git checkout Historia001
+(16)	git stash apply
+(19)	git commit -m "Paso 19"
+(20)	git merge Historia000 --no-ff	Si no se ejecuta recursivamente se producen 
+					conflictos en el fichero bitacora.txt
+=======
+(03)	git branch Historia000
+(04)	git branch Historia001
+(05)	git checkout Historia000
+(11)	git stash + checkout
+>>>>>>> Historia000
+>>>>>>> Historia001
