@@ -6,3 +6,10 @@
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+(7)	git add .
+(8)	git commit -m "Paso08"
+(9)	git checkout Historia001
+(13)	git add .
+(14)	git commit -m "paso 14"
+(15)	git checkout Historia001
+(16)	git stash apply
