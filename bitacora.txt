@@ -6,3 +6,9 @@
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+(22)	git add .
+(23)	git commit -m "Paso 23"
+(24)	git checkout master
+(25)				Se haria por fast forward ya que actualmente
+				la rama master no tiene contenido 
+					
