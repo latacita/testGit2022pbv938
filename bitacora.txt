@@ -11,4 +11,7 @@
 (24)	git checkout master
 (25)				Se haria por fast forward ya que actualmente
 				la rama master no tiene contenido 
+(26)	git add + commit
+(27)	git tag 
+(28)	git pull + push origin master
 					
