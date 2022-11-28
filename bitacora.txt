@@ -9,3 +9,4 @@
 (03)	git branch Historia000
 (04)	git branch Historia001
 (05)	git checkout Historia000
+(11)	git stash + checkout
