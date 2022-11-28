@@ -1,11 +1,12 @@
 %%==================================================================%%
 %%                 Métodos de Desarrollo - Test de Git              %%
 %%==================================================================%%
-%% Alumno (Apellidos, Nombre):                                      %%
+%% Alumno (Apellidos, Nombre): Berrío Valdor, Pedro                 %%
 %%==================================================================%%
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+<<<<<<< HEAD
 (7)	git add .
 (8)	git commit -m "Paso08"
 (9)	git checkout Historia001
@@ -13,3 +14,12 @@
 (14)	git commit -m "paso 14"
 (15)	git checkout Historia001
 (16)	git stash apply
+(19)	git commit -m "Paso 19"
+(20)	git merge Historia000 --no-ff	Si no se ejecuta recursivamente se producen 
+					conflictos en el fichero bitacora.txt
+=======
+(03)	git branch Historia000
+(04)	git branch Historia001
+(05)	git checkout Historia000
+(11)	git stash + checkout
+>>>>>>> Historia000
